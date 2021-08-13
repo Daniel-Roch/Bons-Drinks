@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.sectionSobreNos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "title title"
+    "img texto";
+    gap: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.titleForms{
+    grid-area: title;
+    color: #5c0511;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+.imgSobreNos{
+    grid-area: img;
+    max-width: 100%;
+    align-self: start;
+    object-fit: cover;
+    max-height: 400px;
+    width: 550px;
+    border-radius: 5px;
+}
+.textSobreNos{
+    grid-area: texto;
+    font-size: 18px;
+    color: #101010;
+    font-family: 'Open Sans', sans-serif;
+}

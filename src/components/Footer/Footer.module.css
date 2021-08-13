@@ -1,0 +1,12 @@
+.footer{
+   display: flex;
+   justify-content: center;
+   padding: 10px 0;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0, 42%);
+   background-color: #fffbef;
+   min-height: 100%;
+   grid-area: footer;
+}
+.infFooter{
+    font-size: 15px;
+}
