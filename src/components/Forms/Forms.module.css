@@ -1,0 +1,41 @@
+.containerForms{
+    background: #fffdf8;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4,auto);
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+.titleForms{
+    color: #5c0511;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+.imgForms{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.formsNome{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.formsEmail{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+.formsMensagem{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.btnForms{
+    grid-column: 3/4;
+    grid-row: 4;
+}
