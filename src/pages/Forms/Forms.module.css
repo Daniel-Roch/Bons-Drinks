@@ -1,3 +1,7 @@
+.sectionForms{
+    grid-area: content;
+}
+
 .containerForms{
     background: #fffdf8;
     padding: 0;
@@ -11,8 +15,6 @@
     align-items: center;
     justify-content: center;
     column-gap: 20px;
-    grid-area: content;
-
 }
 .titleForms{
     color: #5c0511;

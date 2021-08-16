@@ -35,7 +35,11 @@ class App extends Component{
             <Footer/>
           </Route>
           {/*404*/}
-          <Route exact path='/404' component={NotFoundPages}/>
+          <Route exact path='/404'>
+          <Header/>
+          <NotFoundPages/>
+          <Footer/>
+          </Route>
           <Redirect to='/404'/>
         </Switch>
       </Router>

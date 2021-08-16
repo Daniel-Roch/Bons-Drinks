@@ -2,6 +2,8 @@
     background: url('https://bonsdrinks.netlify.app/static/media/pg404.027e8fec.jpg')center no-repeat fixed;
     background-size: cover;
     height: 100vh;
+    width: auto;
+    grid-area: content;
 }
 .titleFormsErro{
     color: #5c0511;

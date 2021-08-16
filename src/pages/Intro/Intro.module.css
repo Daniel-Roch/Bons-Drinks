@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 
 .imgBonsDrinks{
-    grid-area: "img";
-    height: 90vh;
+    height: 100vh;
     background: url('../../assents/bg-bons-drinks.jpg')center no-repeat fixed;
     background-size: cover;
     grid-area: content;

@@ -1,16 +1,21 @@
 .gridContainer{
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px auto 40px;
+  grid-auto-rows: 150px;
   grid-template-areas: 
   "header"
   "content"
   "footer";
   align-items: center;
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* Parte onde eu mudo a barra lateral da pagina. */
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 
 /* Track */
