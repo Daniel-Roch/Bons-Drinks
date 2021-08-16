@@ -1,9 +1,9 @@
 import React,{Component} from 'react'
 import style from './Forms.module.css'
 import ImgForms from '../../assents/contact-pic.jpg'
-import Btn from '../Button/Button'
-import Input from '../Input/Input'
-import TextArea from '../TextArea/TextArea'
+import Btn from '../../components/Button/Button'
+import Input from '../../components/Input/Input'
+import TextArea from '../../components/TextArea/TextArea'
 
 export default class Forms extends Component{
     constructor(props){

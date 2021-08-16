@@ -1,0 +1,11 @@
+.erroBackg{
+    background: url('https://bonsdrinks.netlify.app/static/media/pg404.027e8fec.jpg')center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.titleFormsErro{
+    color: #5c0511;
+    font-size: 30px;
+    margin: 160px 0 20px 0;
+    text-align: center;
+}

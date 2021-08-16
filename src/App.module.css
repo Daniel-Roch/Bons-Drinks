@@ -1,11 +1,12 @@
-/* .gridContainer{
+.gridContainer{
   display: grid;
   grid-template-areas: 
   "header"
   "img"
+  "forms"
   "footer";
   align-items: center;
-} */
+}
 
 /* Parte onde eu mudo a barra lateral da pagina. */
 /* width */
