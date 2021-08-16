@@ -5,6 +5,7 @@
     height: 90vh;
     background: url('../../assents/bg-bons-drinks.jpg')center no-repeat fixed;
     background-size: cover;
+    grid-area: content;
 }
 .titleIntro{
     font-family: "Bilbo Swash Caps",cursive;

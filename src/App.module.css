@@ -2,8 +2,7 @@
   display: grid;
   grid-template-areas: 
   "header"
-  "img"
-  "forms"
+  "content"
   "footer";
   align-items: center;
 }

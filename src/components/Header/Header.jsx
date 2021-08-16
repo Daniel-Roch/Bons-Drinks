@@ -8,16 +8,11 @@ class Header extends Component{
     render(){
         return(<header className={style.styleHeader}>
                 <nav className={style.navHeader}>
-                    <Link>Drinks</Link>
-                    {/* <a href="http://localhost:3000/drinks">Drinks</a> */}
-                    <Link to='/sobre'>Sobre Nós</Link>
-                    {/* <a href="http://localhost:3000/sobre">Sobre Nós</a> */}
+                    <Link to='Drinks'>Drinks</Link>
+                    <Link to="/sobre">Sobre Nós</Link>
                     <Link to='/' className={style.bonsDrinks}>Bons Drinks</Link>
-                    {/* <a className={style.bonsDrinks} href="http://localhost:3000">Bons Drinks</a> */}
-                    <Link>Nosso Time</Link>
-                    {/* <a href="http://localhost:3000/NossoTime">Nosso Time</a> */}
+                    <Link to='NossoTime'>Nosso Time</Link>
                     <Link to='Contato'>Contato</Link>
-                    {/* <a href="http://localhost:3000/Contato">Contato</a> */}
                 </nav>
             </header>
         );
