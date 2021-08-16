@@ -9,7 +9,8 @@ Segue o link: [BonsDrinks](https://bonsdrinks.herokuapp.com/)
 # Primeiros passos.
 
 Este projeto foi inicializado com 
-[create-react-app](https://github.com/facebook/create-react-app).
+[create-react-app](https://github.com/facebook/create-react-app).\
+Utilize o `npm install`, para colocar os devidos pacotes.
 
 ## Scripts Disponíveis
 
