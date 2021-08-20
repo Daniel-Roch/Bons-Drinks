@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.cardArticle{
+    display: flex;
+    flex-direction: row;
+}
+.imgCard{
+    max-width:200px;
+    max-height:300px;
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+.butArticle{
+    display: flex;
+    flex-direction: column;
+}
+.btnCard{
+    background-color: transparent;
+    color: #101010;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.btnImg{
+    height: 19px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.nomeCard{
+    font-size: 18px;
+    color: #101010;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.descricaoCard{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.btnImgDown{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

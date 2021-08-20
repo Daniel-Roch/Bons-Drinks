@@ -28,3 +28,7 @@ Você também verá quaisquer erros no console.
 
 Para auxiliar no caminho das rotas. \
 Utilizando o `npm install` [react-router-dom](https://reactrouter.com/)
+
+# react-bootstrap
+
+`npm install react-bootstrap`

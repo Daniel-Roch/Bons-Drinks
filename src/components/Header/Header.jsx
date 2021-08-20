@@ -8,11 +8,11 @@ class Header extends Component{
     render(){
         return(<header className={style.styleHeader}>
                 <nav className={style.navHeader}>
-                    <Link to='Drinks'>Drinks</Link>
-                    <Link to="/sobre">Sobre Nós</Link>
+                    <Link to='/Drinks/*'>Drinks</Link>
+                    <Link to="/Sobre">Sobre Nós</Link>
                     <Link to='/' className={style.bonsDrinks}>Bons Drinks</Link>
-                    <Link to='NossoTime'>Nosso Time</Link>
-                    <Link to='Contato'>Contato</Link>
+                    <Link to='/NossoTime'>Nosso Time</Link>
+                    <Link to='/Contato'>Contato</Link>
                 </nav>
             </header>
         );

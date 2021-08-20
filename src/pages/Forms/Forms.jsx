@@ -39,18 +39,18 @@ export default class Forms extends Component{
         console.log(json)
     }
     render(){
-        return(<>
+        return(
         <section className={style.sectionForms}>
             <h1 className={style.titleForms}>Contato</h1>
-            <form className={style.containerForms}>
+            <form className={style.containerForms} onSubmit={this.handleSubmit}>
                 <img src={ImgForms} className={style.imgForms} alt="back"/>
                 <Input type="text" name="nome" onChange={this.handleInputChange} className={style.formsNome}>Nome: </Input>
                 <Input type="email" name="email" onChange={this.handleInputChange} className={style.formsEmail}>E-mail: </Input>
                 <TextArea name="mensagem" onChange={this.handleInputChange} className={style.formsMensagem}>Mensagem: </TextArea>
-                <Btn className={style.btnForms} onClick={this.handleSubmit}>Enviar</Btn>
+                <Btn className={style.btnForms} type="submit">Enviar</Btn>
             </form>
         </section>
-        </>)
+        )
     }
 }
 

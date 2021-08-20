@@ -1,0 +1,25 @@
+.titleDrink{
+    color: #5c0511;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+.areaCardDrink{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardsDrinks{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.loadCard{
+    border-radius: 60%;
+    height: 280px;
+    width: 300px;
+}

@@ -1,0 +1,23 @@
+/*styleHeader font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.cardDrink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgCardDrink{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #5c0511;
+}
+.pDrink{
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #101010;
+    font-family: 'Open Sans', sans-serif;
+}

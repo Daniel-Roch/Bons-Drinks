@@ -11,7 +11,10 @@ export default class Btn extends Component{
         onMouseEnter={this.onClick}
     } */
     render(){
-        return(<button className={`${style.btn} ${this.props.className}`}
-                onClick={this.props.onClick}>{this.props.children}</button>);
+        return(<button 
+                className={`${style.btn} ${this.props.className}`}
+                onClick={this.props.onClick} 
+                type={this.props.type}
+                onChange={this.props.onChange}>{this.props.children}</button>);
     }
 }
